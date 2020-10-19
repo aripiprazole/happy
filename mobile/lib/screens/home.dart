@@ -4,6 +4,7 @@ import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:happy/models/orphanage.dart';
+import 'package:happy/screens/create-orphanage/select-map-position.dart';
 import 'package:happy/screens/orphanage-details.dart';
 import 'package:happy/store/orphanages-store.dart';
 import 'package:happy/utils/image.dart';
@@ -144,8 +145,8 @@ class Footer extends StatelessWidget {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 color: const Color(0xff15c3d6),
-                onPressed: () => Navigator.of(context).pushNamed(
-                  'create-orphanage/select-map-position',
+                onPressed: () => Navigator.of(context).push(
+                  MaterialPageRoute(builder: (_) => SelectMapPositionScreen()),
                 ),
               )
             ],
