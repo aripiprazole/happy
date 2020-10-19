@@ -1,0 +1,11 @@
+#orphanages-map-page {
+  .orphanages-map .leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: none;
+  }
+
+  .orphanages-map .leaflet-popup-tip-container {
+    display: none;
+  }
+}
