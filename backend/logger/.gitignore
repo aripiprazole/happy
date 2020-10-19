@@ -1,0 +1,11 @@
+/.gradle
+/.idea
+/out
+/build
+*.iml
+*.ipr
+*.iws
+.orphanage_images
+
+.env*
+!.env.examples
