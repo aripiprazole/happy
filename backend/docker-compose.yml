@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  database:
+    image: postgres:latest
+    environment:
+      POSTGRES_PASSWORD: root
+      POSTGRES_USER: root
+      POSTGRES_DB: database
+    ports:
+      - 5432:5432
+    networks:
+      - nlw
+
+  app:
+    build: .
+    restart: always
+    ports:
+      - 80:80
+      - 443:433
+      - 3000:3000
+    depends_on:
+      - database
+    env_file:
+      - .env
+    networks:
+      - nlw
+
+networks:
+  nlw:
