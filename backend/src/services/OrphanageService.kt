@@ -41,7 +41,7 @@ class DefaultOrphanageService(private val database: Database) : OrphanageService
             result[Orphanages.instructions],
             result[Orphanages.openOnWeekends],
             result[Orphanages.openingHours],
-        ).also { println("CARALHINHO")}
+        )
     }
 }
 

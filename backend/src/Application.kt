@@ -16,11 +16,11 @@ import io.ktor.response.*
 import io.ktor.routing.*
 import io.ktor.serialization.*
 import io.ktor.util.*
+import java.io.File
 import kotlinx.serialization.SerializationException
 import kotlinx.serialization.json.Json
 import org.slf4j.event.Level
 import org.valiktor.ConstraintViolationException
-import java.io.File
 
 fun main(args: Array<String>): Unit = io.ktor.server.jetty.EngineMain.main(args)
 
@@ -67,10 +67,6 @@ fun Application.module() {
         uploadRoutes(orphanageImageService)
 
         install(StatusPages) {
-
-            status(HttpStatusCode.InternalServerError) {
-                println("OO")
-            }
             exception<ConstraintViolationException> { cause ->
                 call.respond(HttpStatusCode.UnprocessableEntity, cause.asJsonObject())
             }
@@ -81,5 +77,3 @@ fun Application.module() {
         }
     }
 }
-
-
