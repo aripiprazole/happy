@@ -13,6 +13,10 @@ Hello, welcome to the Happy! mobile app.
 
 ## Observations
 
+- The main framework used was [flutter](https://flutter.dev/)
+
+- It was my first time using flutter
+
 - This project was only setup for android, if you want to use it in iOS you will
   need to setup the google maps api key there,
   and the App Icon
