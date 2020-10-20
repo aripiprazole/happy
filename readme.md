@@ -15,10 +15,9 @@
 </p>
 
 <div align="center">
-<img src="frontend/docs/image1.png">
+<img src="frontend/docs/image1.png" width="500">
+
 <img src="mobile/docs/image1.png">
 </div>
 
--
-
-> This is my implementation of [Next level week's Happy!](https://github.com/rocketseat-education/nlw-03-omnistack/)
+## This is my implementation of [Next level week's Happy!](https://github.com/rocketseat-education/nlw-03-omnistack/)
