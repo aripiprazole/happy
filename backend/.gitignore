@@ -8,4 +8,4 @@
 .orphanage_images
 
 .env*
-!.env.examples
+!.env.example
