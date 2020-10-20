@@ -13,6 +13,9 @@ Hello, welcome to the Happy! web app.
 
 ## Observations
 
+- The main framework used was [vue.js](https://vuejs.org/)
+  with [typescript](https://www.typescriptlang.org/)
+- It was my first time using VueJS, Vuex, etc
 - The contact button hasn't been implemented.
 
 ## Build instructions
