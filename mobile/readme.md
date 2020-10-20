@@ -3,10 +3,10 @@
 Hello, welcome to the Happy! mobile app.
 
 <div align="center">
-<img src="mobile/docs/image1.png">
-<img src="mobile/docs/image2.png">
-<img src="mobile/docs/image3.png">
-<img src="mobile/docs/image4.png">
+<img src="docs/image1.png">
+<img src="docs/image2.png">
+<img src="docs/image3.png">
+<img src="docs/image4.png">
 </div>
 
 ---
