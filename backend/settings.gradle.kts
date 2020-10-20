@@ -1,2 +1,2 @@
-rootProject.name = "nlw-backend"
+rootProject.name = "happy"
 include("logger")

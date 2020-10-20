@@ -26,7 +26,7 @@ group = "com.lorenzoog"
 version = "1.0.0"
 
 application {
-    mainClassName = "com.lorenzoog.nlwbackend.ApplicationKt"
+    mainClassName = "com.lorenzoog.happy.ApplicationKt"
 }
 
 repositories {

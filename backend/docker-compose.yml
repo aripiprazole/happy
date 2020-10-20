@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 
 services:
   database:
@@ -12,19 +12,20 @@ services:
     networks:
       - nlw
 
-  app:
-    build: .
-    restart: always
-    ports:
-      - 80:80
-      - 443:433
-      - 3000:3000
-    depends_on:
-      - database
-    env_file:
-      - .env
-    networks:
-      - nlw
+# The app has a problem with jetty(not found the request class, so will be disabled)
+#  app:
+#    build: .
+#    restart: always
+#    ports:
+#      - 80:80
+#      - 443:433
+#      - 3000:3000
+#    depends_on:
+#      - database
+#    env_file:
+#      - .env
+#    networks:
+#      - nlw
 
 networks:
   nlw:
