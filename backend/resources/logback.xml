@@ -1,5 +1,5 @@
 <configuration>
-    <appender name="STDOUT" class="com.lorenzoog.happy.logger.LogAppender">
+    <appender name="STDOUT" class="com.gabrielleeg1.happy.logger.LogAppender">
         <withJansi>true</withJansi>
     </appender>
 

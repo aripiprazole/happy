@@ -1,6 +1,6 @@
-package com.lorenzoog.happy.validators
+package com.gabrielleeg1.happy.validators
 
-import com.lorenzoog.happy.dtos.CreateOrphanageData
+import com.gabrielleeg1.happy.dtos.CreateOrphanageData
 import org.valiktor.functions.hasSize
 import org.valiktor.functions.isNotBlank
 import org.valiktor.functions.isNotEmpty

@@ -1,4 +1,4 @@
-package com.lorenzoog.happy.utils
+package com.gabrielleeg1.happy.utils
 
 import io.ktor.http.content.*
 

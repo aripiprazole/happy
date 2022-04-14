@@ -1,12 +1,12 @@
 @file:OptIn(KtorExperimentalLocationsAPI::class)
 
-package com.lorenzoog.happy
+package com.gabrielleeg1.happy
 
-import com.lorenzoog.happy.database.DatabaseConnector
-import com.lorenzoog.happy.routes.orphanagesRoutes
-import com.lorenzoog.happy.routes.uploadRoutes
-import com.lorenzoog.happy.services.*
-import com.lorenzoog.happy.utils.json.asJsonObject
+import com.gabrielleeg1.happy.database.DatabaseConnector
+import com.gabrielleeg1.happy.routes.orphanagesRoutes
+import com.gabrielleeg1.happy.routes.uploadRoutes
+import com.gabrielleeg1.happy.services.*
+import com.gabrielleeg1.happy.utils.json.asJsonObject
 import io.ktor.application.*
 import io.ktor.features.*
 import io.ktor.http.*

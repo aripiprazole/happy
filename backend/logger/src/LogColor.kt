@@ -1,4 +1,4 @@
-package com.lorenzoog.happy.logger
+package com.gabrielleeg1.happy.logger
 
 /**
  * https://github.com/nekkan/kodya/blob/development/core/src/main/kotlin/kodya/core/utils/io/logger/AnsiColor.kt

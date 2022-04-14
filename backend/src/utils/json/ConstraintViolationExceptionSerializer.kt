@@ -1,4 +1,4 @@
-package com.lorenzoog.happy.utils.json
+package com.gabrielleeg1.happy.utils.json
 
 import kotlinx.serialization.json.buildJsonArray
 import kotlinx.serialization.json.buildJsonObject

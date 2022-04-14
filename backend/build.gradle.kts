@@ -22,11 +22,11 @@ plugins {
     id("com.github.johnrengelman.shadow") version "6.1.0"
 }
 
-group = "com.lorenzoog"
+group = "com.gabrielleeg1"
 version = "1.0.0"
 
 application {
-    mainClassName = "com.lorenzoog.happy.ApplicationKt"
+    mainClassName = "com.gabrielleeg1.happy.ApplicationKt"
 }
 
 repositories {

@@ -1,4 +1,4 @@
-package com.lorenzoog.happy.logger
+package com.gabrielleeg1.happy.logger
 
 import ch.qos.logback.classic.spi.ILoggingEvent
 import ch.qos.logback.core.OutputStreamAppender

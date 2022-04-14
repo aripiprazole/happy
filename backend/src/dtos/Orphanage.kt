@@ -1,6 +1,6 @@
-package com.lorenzoog.happy.dtos
+package com.gabrielleeg1.happy.dtos
 
-import com.lorenzoog.happy.models.Orphanage
+import com.gabrielleeg1.happy.models.Orphanage
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

@@ -1,7 +1,7 @@
-package com.lorenzoog.happy.database
+package com.gabrielleeg1.happy.database
 
-import com.lorenzoog.happy.database.tables.OrphanageImage
-import com.lorenzoog.happy.database.tables.Orphanages
+import com.gabrielleeg1.happy.database.tables.OrphanageImage
+import com.gabrielleeg1.happy.database.tables.Orphanages
 import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource
 import io.ktor.config.*

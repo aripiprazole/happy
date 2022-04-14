@@ -1,4 +1,4 @@
-package com.lorenzoog.happy.models
+package com.gabrielleeg1.happy.models
 
 import java.math.BigDecimal
 

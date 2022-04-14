@@ -1,7 +1,7 @@
 @file:OptIn(KtorExperimentalLocationsAPI::class)
-package com.lorenzoog.happy.routes
+package com.gabrielleeg1.happy.routes
 
-import com.lorenzoog.happy.services.OrphanageImageService
+import com.gabrielleeg1.happy.services.OrphanageImageService
 import io.ktor.application.*
 import io.ktor.locations.*
 import io.ktor.response.*

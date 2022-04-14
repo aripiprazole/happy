@@ -1,4 +1,4 @@
-package com.lorenzoog.happy.database.tables
+package com.gabrielleeg1.happy.database.tables
 
 import org.jetbrains.exposed.dao.id.LongIdTable
 

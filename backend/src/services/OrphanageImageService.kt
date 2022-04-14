@@ -1,7 +1,7 @@
-package com.lorenzoog.happy.services
+package com.gabrielleeg1.happy.services
 
-import com.lorenzoog.happy.database.tables.OrphanageImage
-import com.lorenzoog.happy.database.tables.Orphanages
+import com.gabrielleeg1.happy.database.tables.OrphanageImage
+import com.gabrielleeg1.happy.database.tables.Orphanages
 import io.ktor.http.content.*
 import kotlinx.coroutines.*
 import org.jetbrains.exposed.dao.DaoEntityID

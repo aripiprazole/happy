@@ -1,4 +1,4 @@
-package com.lorenzoog.happy.mobile
+package com.gabrielleeg1.happy.mobile
 
 import io.flutter.embedding.android.FlutterActivity
 

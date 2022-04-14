@@ -5,7 +5,7 @@ plugins {
     kotlin("jvm")
 }
 
-group = "com.lorenzoog"
+group = "com.gabrielleeg1"
 version = "1.0.0"
 
 repositories {

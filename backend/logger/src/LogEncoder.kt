@@ -1,11 +1,11 @@
-package com.lorenzoog.happy.logger
+package com.gabrielleeg1.happy.logger
 
 import ch.qos.logback.classic.spi.ILoggingEvent
 import ch.qos.logback.core.CoreConstants.LINE_SEPARATOR
 import ch.qos.logback.core.encoder.EncoderBase
-import com.lorenzoog.happy.logger.LogColor.Cyan
-import com.lorenzoog.happy.logger.LogColor.Red
-import com.lorenzoog.happy.logger.LogColor.Reset
+import com.gabrielleeg1.happy.logger.LogColor.Cyan
+import com.gabrielleeg1.happy.logger.LogColor.Red
+import com.gabrielleeg1.happy.logger.LogColor.Reset
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.currentCoroutineContext
 import kotlinx.coroutines.runBlocking

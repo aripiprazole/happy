@@ -1,8 +1,8 @@
-package com.lorenzoog.happy.services
+package com.gabrielleeg1.happy.services
 
-import com.lorenzoog.happy.database.tables.Orphanages
-import com.lorenzoog.happy.dtos.CreateOrphanageData
-import com.lorenzoog.happy.models.Orphanage
+import com.gabrielleeg1.happy.database.tables.Orphanages
+import com.gabrielleeg1.happy.dtos.CreateOrphanageData
+import com.gabrielleeg1.happy.models.Orphanage
 import org.jetbrains.exposed.sql.*
 import org.jetbrains.exposed.sql.transactions.experimental.newSuspendedTransaction
 
